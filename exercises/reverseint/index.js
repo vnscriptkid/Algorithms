@@ -8,6 +8,10 @@
 //   reverseInt(-15) === -51
 //   reverseInt(-90) === -9
 
-function reverseInt(n) {}
+// -900 -> 900 -> '900' -> ['9', '0', '0'] -> ['0', '0', '9'] -> '009' -> 9 -> -9
+function reverseInt(n) {
+    reversed = n.toString().split('').reverse().join('');
+    return Math.sign(n) * parseInt(reversed);
+}
 
 module.exports = reverseInt;
