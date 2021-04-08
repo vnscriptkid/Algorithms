@@ -8,15 +8,15 @@
 
 // Simplest way
 // '123' => '1' => '21' => '321'
-function reverse(str) {
-    let output = '';
+// function reverse(str) {
+//     let output = '';
 
-    for (let char of str) {
-        output = char + output;
-    }
+//     for (let char of str) {
+//         output = char + output;
+//     }
 
-    return output;
-}
+//     return output;
+// }
 
 // Javascript way
 // function reverse(str) {
@@ -28,6 +28,12 @@ function reverse(str) {
 //     if (str === '') return '';
 //     return reverse(str.substr(1)) + str.charAt(0);
 // }
+
+// Reduce way
+function reverse(str) {
+    return str.split('').reduce((rev, char) => char + rev, '');
+}
+
 
 
 module.exports = reverse;
