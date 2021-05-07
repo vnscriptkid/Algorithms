@@ -1,34 +1,34 @@
-class MinHeap {
+class MaxHeap {
     constructor(data=[]) {
         this.data = data;
     }
 
-    getMin() {
+    getMax() {
         return this.data[0] || null;
     }
 
-    popMin() {
+    popMax() {
         // swap value of min and last node in the tree
         this._swap(0, this.data.length - 1);
         // pop out last element 
-        const minValue = this.data.pop();
+        const maxValue = this.data.pop();
 
-        let curIndex = 0, leftIndex, rightIndex, smallerChildIndex;
+        let curIndex = 0, leftIndex, rightIndex, greaterChildIndex;
         // recursively compare with left and right child to make sure min at root at every step
         while (true) {
             leftIndex = this.leftChild(curIndex);
             rightIndex = this.rightChild(curIndex);
 
-            smallerChildIndex = this.data[leftIndex] <= this.data[rightIndex] ? leftIndex : rightIndex;
+            greaterChildIndex = this.data[leftIndex] > this.data[rightIndex] ? leftIndex : rightIndex;
 
-            if (this.data[curIndex] > this.data[smallerChildIndex]) {
-                this._swap(curIndex, smallerChildIndex);
-                curIndex = smallerChildIndex;
+            if (this.data[curIndex] < this.data[greaterChildIndex]) {
+                this._swap(curIndex, greaterChildIndex);
+                curIndex = greaterChildIndex;
             }
             else break;
         }
 
-        return minValue;
+        return maxValue;
     }
 
     leftChild(index) {
@@ -56,7 +56,7 @@ class MinHeap {
         let curIndex = this.data.length - 1;
         // recursively compare with its parent
         while (true) {
-            if (value < this.data[this.parent(curIndex)]) {
+            if (value > this.data[this.parent(curIndex)]) {
                 this._swap(curIndex, this.parent(curIndex))
                 curIndex = this.parent(curIndex);
             }
@@ -65,4 +65,4 @@ class MinHeap {
     }
 }
 
-module.exports = { MinHeap }
+module.exports = { MaxHeap }
