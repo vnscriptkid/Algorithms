@@ -1,3 +1,6 @@
-# AlgoCasts
+# Introduction
 
-Companion repo to [The Coding Inteview Bootcamp: Algorithms + Data Structures](https://www.udemy.com/course/coding-interview-bootcamp-algorithms-and-data-structure/)
+This repo contains my solution code for all problems from algorithm courses
+  - ✔️ [Udemy] The Coding Interview Bootcamp: Algorithms + Data Structures
+  - ✔️ [backtobackswe] Ace Your Coding Interview
+  - ✔️ [educative.io] Grokking the Coding Interview: Patterns for Coding Questions
