@@ -1,4 +1,4 @@
-# You Don't Know JS Yet: Scope & Closures - 2nd Edition
+# Book of Data Structures and Algorithms - 1st Edition
 
 <img src="images/cover.png" width="300">
 
