@@ -23,6 +23,39 @@
 ### ⏰ When you might want to use it?
 
 ### 🏗️ Rebuild your own hash table
+```js
+class Hashtable {
+    constructor(size=4) {
+        this.data = new Array(size);
+    }
+
+    set(key, value) {
+        const hash = this._hash(key);
+        if (!this.data[hash])
+            this.data[hash] = [];
+
+        this.data[hash].push([key, value]);
+    }
+
+    get(key) {
+        const hash = this._hash(key);
+        if (!this.data[hash]) return undefined;
+        return this.data[hash].find(item => item[0] === key)[1];
+    }
+
+    _hash(str) {
+        let hashValue = 0;
+        const PRIME = 97;
+
+        for (let i = 0; i < Math.min(str.length, 100); i++) {
+            const value = str[i].charCodeAt();
+            hashValue = (hashValue * PRIME + value) % this.data.length;
+        }
+
+        return hashValue;
+    }
+}
+```
 
 ### 💥 Handling collisions
 
