@@ -7,8 +7,10 @@
 * __Hash function__: 
   * The core of hash table, :one: take in the 🔑, :two: doing some computation :three: and then produce a index (where actually data with that key is stored)
   * Must be consistent: one key always results in one index
-* __Good hash functions__:
+* __Characteristics of hash functions__:
   * Distribute data evenly => less collision
+  * Fast
+  * Deterministic => same input produces same output
 
 ### ☯️ How is `hash table` different from `array`?
 - Arrays are great as it allows fast access using index but in the wild, we normally don't have access to index
