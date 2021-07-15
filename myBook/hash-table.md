@@ -24,3 +24,9 @@
 
 ### 🏗️ Rebuild your own hash table
 
+### 💥 Handling collisions
+
+#### :one: Separate chaining
+![image](https://user-images.githubusercontent.com/28957748/125787659-778ace5c-7e9a-4f8a-98f9-62f8ed0fd7e7.png)
+
+#### :two: Linear probing
