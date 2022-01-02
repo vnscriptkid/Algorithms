@@ -2,9 +2,9 @@
 
 1. 🚩 Welcome! Introduction to this Course | 00:02:11
 2. [DS] Hash Tables and Sorting for Beginners | 00:10:48
-3. [SystemDesign] Program Execution in Memory | 00:12:50
-4. [General] Example of a great coding interview | 00:22:16
-5. [AlgoDS] Traversing Array in Reverse (Using ESTCV Approach) | 00:18:25
+3. [SystemDesign 🥈] Program Execution in Memory | 00:12:50
+4. [General 🥉] Example of a great coding interview | 00:22:16
+5. [AlgoDS 🥇] Traversing Array in Reverse (Using ESTCV Approach) | 00:18:25
 6. [AlgoDS] Traverse from Both Ends ep1 | 00:02:13
 7. [AlgoDS] Traverse from Both Ends ep2 | 00:03:12
 8. [AlgoDS] Partitioning Array ep1 | 00:03:02
