@@ -9,9 +9,10 @@
 | Metrics | Horizontal Scaling | Vertical Scaling |
 | -- | -- | -- |
 | LB | Need LB | N/A |
+| Failure Handling | ✔️ Resilient | ⚠️ Single point of failure |
 | Communicate | Network calls (btw servers) 🐌 | Fast 🚀 |
-| Consistency | Data inconsistency | ✔️ Data consistency | 
-| Scale | ✔️ Scale well as # users increase (no limit) | Do not scale well (hard limit) |
+| Consistency | ⚠️ Data inconsistency | ✔️ Data consistency | 
+| Scale | ✔️ Scale well as # users increase (no limit) | ⚠️ Do not scale well (hard limit) |
 
 1. System Design Primer ⭐️: How to start with distributed systems?
 2. What is Load Balancing? ⚖️
