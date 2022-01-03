@@ -10,7 +10,7 @@
 | -- | -- | -- |
 | LB | Need LB | N/A |
 | Failure Handling | ✔️ Resilient | ⚠️ Single point of failure |
-| Communicate | Network calls (btw servers) 🐌 | Fast 🚀 |
+| Communicate | Network calls (btw servers) 🐌 | Inter-process communication 🚀 |
 | Consistency | ⚠️ Data inconsistency | ✔️ Data consistency | 
 | Scale | ✔️ Scale well as # users increase (no limit) | ⚠️ Do not scale well (hard limit) |
 
