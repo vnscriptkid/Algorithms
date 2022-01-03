@@ -1,14 +1,17 @@
-0. System Design Basics: Horizontal vs. Vertical Scaling
+## 0. System Design Basics: Horizontal vs. Vertical Scaling
 
 - 2 ways of scaling:
   - Buy more CPUs, RAM (vertical scaling)
   - Buy more machines (horizontal scaling)
 
 - Comparing:
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+
+| Metrics | Horizontal Scaling | Vertical Scaling |
+| -- | -- | -- |
+| LB | Need LB | N/A |
+| Communicate | Network calls (btw servers) 🐌 | Fast 🚀 |
+| Consistency | Data inconsistency | ✔️ Data consistency | 
+| Scale | ✔️ Scale well as # users increase (no limit) | Do not scale well (hard limit) |
 
 1. System Design Primer ⭐️: How to start with distributed systems?
 2. What is Load Balancing? ⚖️
