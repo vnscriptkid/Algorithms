@@ -1,4 +1,5 @@
 ## Youtube playlist
+https://www.youtube.com/watch?v=xpDnVSmNFX0&list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX
 
 0. System Design Basics: Horizontal vs. Vertical Scaling
 1. System Design Primer ⭐️: How to start with distributed systems?
