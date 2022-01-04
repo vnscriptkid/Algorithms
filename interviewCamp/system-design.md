@@ -35,3 +35,16 @@
   - Capabilities
   - num of connections (live): long conn, download files...
 
+## 28. Load Balancers and App Servers ep3 | 00:06:29
+
+- Stateless web servers:
+
+| PROS | CONS|
+| -- | -- |
+| Scale well | Roundtrip Time (with db) |
+| Failover | Eventual consistency (multiple servers update db at the same time) |
+|  | Misc cases: multi-players online game (2 users hit the same server) |
+
+- __PERSISTENCE__: reqs from 1 user must hit the same server
+  - ip.address: layer 4 LB (user changes his location?)
+  - sessionId - SSL, Cookies: layer 7 LB
