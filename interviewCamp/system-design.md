@@ -33,5 +33,5 @@
   - Response Time
   - Up/down time
   - Capabilities
-  - # of connections (live): long conn, download files...
+  - num of connections (live): long conn, download files...
 
