@@ -34,7 +34,7 @@
 32. [🥈SystemDesign] Sharding - Consistent Hashing | 00:06:42
 33. [🥈SystemDesign] Implementation ep1 | 00:02:27
 34. [🥈SystemDesign] Implementation ep2 | 00:04:12
-35. Binary Search with Duplicates | 00:03:51
+35. [🥇AlgoDS] Binary Search with Duplicates | 00:03:51
 36. [🥇AlgoDS] Search for Closest - Record and Move On | 00:07:10
 37. [🥇AlgoDS] Special Tricks ep1 | 00:05:16
 38. [🥇AlgoDS] Special Tricks ep2 | 00:06:24
@@ -166,19 +166,19 @@
 164. [🥈SystemDesign] Messaging Application System Design (WhatsApp, Messenger) | 02:06:48
 165. [🥈SystemDesign] Mock Interview - System Design (Facebook, Instagram) | 02:03:15
 166. [🥈SystemDesign] Consistent Hashing Discussion - Horizontally Scaling Systems | 01:54:42
-167. 2 Mock Phone Interviews - Algorithms | 02:00:23
+167. [🥇AlgoDS] 2 Mock Phone Interviews - Algorithms | 02:00:23
 168. [🥈SystemDesign] Scaling your Algorithms for Large Data | 02:04:57
 169. [🥈SystemDesign] Improving Performance of Web Applications | 02:16:46
 170. [🥈SystemDesign] Video Sharing Service (Youtube, Netflix) | 02:08:39
 171. [🥈SystemDesign]Design a Job Scheduler | 02:04:45
 172. [🥈SystemDesign] Q&A with a successful candidate + Uber/Lyft System Design | 02:01:27
 173. [🥈SystemDesign] Design a Web Crawler | 01:58:13
-174. Q&A with an Amazon engineer | 01:58:39
-175. Q&A with a Google Tech Lead | 02:06:24
-176. Q&A with a Google Engineer | 02:00:45
+174. [🥉General] Q&A with an Amazon engineer | 01:58:39
+175. [🥉General] Q&A with a Google Tech Lead | 02:06:24
+176. [🥉General] Q&A with a Google Engineer | 02:00:45
 177. [🥈SystemDesign] Security Considerations while Designing Web Applications | 01:58:25
 178. [🥈SystemDesign] Design HackerRank (Coding Competition Application) | 02:04:01
-179. Q&A with an Amazon engineer ) | 02:00:15
+179. [🥉General] Q&A with an Amazon engineer | 02:00:15
 180. [🥈SystemDesign] Sharding with Examples | 02:01:51
 181. [🥈SystemDesign] 2 Good Mock System Design Interviews | 02:05:36
 182. [🥈SystemDesign] Transaction Isolation Levels | 02:05:34
