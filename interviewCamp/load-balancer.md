@@ -24,7 +24,7 @@
     - so, where to store user's state? db || client => any req can be handled by any app server
   - short-lived (no long connection)
 
-- Scheduling Algorithms:
+- Scheduling Algorithms (Decides which server to redirect reqs to):
   - Round-Robin: 123.123.123... small number of app servers
   - Random: 
   - Weighted Round-Robin: take power of server into account
