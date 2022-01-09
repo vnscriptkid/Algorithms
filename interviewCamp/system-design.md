@@ -5,9 +5,9 @@
 23. [🥈SystemDesign] Anatomy of a Scalable Web Application ep2 | 00:12:38
 24. [🥈SystemDesign] Approach for System Design Interviews | 00:04:16
 25. [🥈SystemDesign] Approach for System Design Interviews + Uber/Lyft Design | 00:17:45
-26. [🥈SystemDesign] Load Balancers and App Servers ep1 | 00:04:15
-27. [🥈SystemDesign] Load Balancers and App Servers ep2 | 00:06:53
-28. [🥈SystemDesign] Load Balancers and App Servers ep3 | 00:06:29
+26. [🥈SystemDesign] ✔️ Load Balancers and App Servers ep1 | 00:04:15
+27. [🥈SystemDesign] ✔️ Load Balancers and App Servers ep2 | 00:06:53
+28. [🥈SystemDesign] ✔️ Load Balancers and App Servers ep3 | 00:06:29
 29. [🥈SystemDesign] CAP Theorem for Beginners | 00:08:35
 30. [🥈SystemDesign] Sharding - Using Partition Functions | 00:08:09
 31. [🥈SystemDesign] Dynamic Sharding | 00:08:38
